@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookbande</title>
+    <link rel="shortcut icon" href="assets/imgs/logo_favion.png">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/standard.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./assets/fonts/colors.css">
+    <link rel="stylesheet" href="./styles/form.css">
+    <link rel="stylesheet" href="./styles/assets_js.css">
+    
+</head>
+<body onload="init()">
+    <header id="header_header">
+        <div id="header_container">
+            <img id="header_img" src="./assets/imgs/logo.png" alt="Logo von Bandebook">
+            <h1 id="header_title">Bookbande</h1>
+        </div>
+    </header>
+    <main id="main">
+        <form id="form">
+            <input id="form_inputName" class="input" type="text" placeholder="Name">
+            <input id="form_inputHaft" class="input" type="text" placeholder="Haftstrafelänge">
+            <button id="form_button" type="button" onclick="addList()">Hinzufügen</button>
+        </form>
+        <section>
+            <h2>1</h2>
+            <article id="section_wantedList"></article>
+            <h2>2</h2>
+            <article id="section_arrestedList"></article>
+            <h2>3</h2>
+            <article id="section_freeList"></article>
+        </section>
+    </main>
+    <script src="main.js"></script>
+    <script src="./scripts/objects.js"></script>
+    <script src="./scripts/getElement.js"></script>
+</body>
+</html>

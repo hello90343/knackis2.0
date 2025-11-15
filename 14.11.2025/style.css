@@ -1,0 +1,11 @@
+#section_wantedList{
+    border: 2px solid red;
+}
+
+#section_arrestedList{
+    border: 2px solid rgb(0, 107, 9);
+}
+
+#section_freeList{
+    border: 2px solid rgb(4, 0, 123);
+}
